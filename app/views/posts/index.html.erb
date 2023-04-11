@@ -1,0 +1,12 @@
+<div data-controller="search">
+  <%= form_with url: '#', method: :get, class: 'search-form mb-3', local: true do %>
+    <div class="input-group">
+      <%= label_tag :search, 'Search:', class: 'input-group-text' %>
+      <%= text_field_tag :search, params[:search], data: { action: "search#search", target: "search.input" }, class: 'form-control' %>
+    </div>
+  <% end %>
+
+  <div data-target="search.results">
+    <%= render @posts %>
+  </div>
+</div>
