@@ -13,8 +13,7 @@
     <li>PostgreSQL, a powerful open-source relational database management system</li>
     <li>Devise, a flexible authentication solution for Rails applications</li>
     <li>Stimulus, a JavaScript framework for building reactive user interfaces</li>
-    <li>jQuery, a fast and concise JavaScript library</li>
-    <li>Bootstrap, a popular CSS framework for building responsive websites</li>
+    <li>Ruby on Rails</li>
   </ul>
   <h2>Getting Started</h2>
   <p>To get started with Search Analytics, you'll need to do the following:</p>
@@ -39,6 +38,6 @@
   <h2>License</h2>
   <p>Search Analytics is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.</p>
   <h2>Credits</h2>
-  <p>Search Analytics was created by [Your Name Here]. Special thanks to [List of contributors] for their contributions to the project.</p>
+  <p>Search Analytics was created by Shaker AbuDrais. Special thanks to [List of contributors] for their contributions to the project.</p>
 </body>
 </html>
