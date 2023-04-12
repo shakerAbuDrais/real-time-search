@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Analytics</title>
+    <%= stylesheet_link_tag 'analytics' %>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Search Analytics</h1>
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Search Query</th>
+            <th>Counter</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @searches.each do |search| %>
+            <tr>
+              <td><%= search.query %></td>
+              <td><%= search.counter %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      
+      <%= link_to 'Back', root_path, class: 'btn btn-secondary mt-3' %>
+    </div>
+  </body>
+</html>

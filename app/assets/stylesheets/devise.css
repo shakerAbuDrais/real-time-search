@@ -1,0 +1,167 @@
+/* app/assets/stylesheets/devise.css */
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #6cb2eb;
+  box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.25);
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.btn:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn:active {
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-primary:active {
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+}
+
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(130, 138, 145, 0.5);
+}
+
+.btn-secondary:active {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #4e555b;
+}
+
+/* Style the sign up form */
+#new_user {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#new_user h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#new_user .form-group {
+  margin-bottom: 1rem;
+}
+
+#new_user .btn-primary {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the login form */
+#new_user {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#new_user h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#new_user .form-group {
+  margin-bottom: 1rem;
+}
+
+#new_user .btn-primary {
+  display: block;
+  margin: 0 auto;
+}
+
+#new_user .btn-secondary {
+  display: block;
+  margin: 0 auto;
+}
+
+#new_user #user_email {
+  margin-bottom: 0;
+}
+
+#new_user #user_password {
+  margin-bottom: 1rem;
+}
+
+#new_user .forgot-password {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#new_user .forgot-password a {
+  color: #007bff;
+}
+
+#new_user .forgot-password a:hover {
+  color: #0056b3;
+}
+
+/* Style the error messages */
+.field_with_errors {
+  display: inline-block;
+  color: red;
+  margin-bottom: 1rem;
+}
+
