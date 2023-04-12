@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Search Analytics</title>
 </head>
 <body>
   <h1>Search Analytics</h1>
