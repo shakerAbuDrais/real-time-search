@@ -1,0 +1,49 @@
+input[type="text"] {
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #6cb2eb;
+  box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.25);
+}
+
+.input-group-text {
+  background-color: #f7f7f9;
+  border: 1px solid #ced4da;
+  border-right: none;
+  font-weight: bold;
+}
+
+.input-group-text:hover {
+  cursor: pointer;
+  background-color: #e2e2e5;
+}
+
+.input-group-text:focus {
+  outline: none;
+  border-color: #6cb2eb;
+  box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.25);
+}
+
+.input-group-text:first-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.input-group-text:last-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-results {
+  margin-top: 1rem;
+}

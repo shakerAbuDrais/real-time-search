@@ -1,12 +1,23 @@
-<div data-controller="search">
-  <%= form_with url: '#', method: :get, class: 'search-form mb-3', local: true do %>
-    <div class="input-group">
-      <%= label_tag :search, 'Search:', class: 'input-group-text' %>
-      <%= text_field_tag :search, params[:search], data: { action: "search#search", target: "search.input" }, class: 'form-control' %>
-    </div>
-  <% end %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <%= stylesheet_link_tag 'main' %>
+  </head>
+  <body>
+    <div data-controller="search">
+      <%= form_with url: '#', method: :get, class: 'search-form mb-3', local: true do |f| %>
+        <div class="input-group">
+          <%= label_tag :search, 'Search:', class: 'input-group-text' %>
+          <%= f.text_field :search, data: { target: "search.input" }, class: 'form-control' %>
+        </div>
+      <% end %>
 
-  <div data-target="search.results">
-    <%= render @posts %>
-  </div>
-</div>
+      <div data-target="search.results">
+        <%= render @posts %>
+      </div>
+
+      <%= link_to 'Search Analytics', search_analytics_path, class: 'btn btn-primary mt-3' %>
+    </div>
+  </body>
+</html>
